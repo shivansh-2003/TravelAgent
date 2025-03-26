@@ -32,3 +32,5 @@ pytest-asyncio
 black
 isort
 mypy
+folium
+IPython
