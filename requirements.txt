@@ -1,0 +1,34 @@
+# Core dependencies
+pydantic
+pydantic-ai
+openai
+langgraph
+python-dotenv
+
+# API integration
+requests
+aiohttp
+
+# Terminal UI and formatting
+rich
+
+# Date and time handling
+python-dateutil
+
+# Async support
+asyncio
+
+# Logging and monitoring
+logfire
+
+# Type checking
+typing-extensions
+
+# Testing (optional)
+pytest
+pytest-asyncio
+
+# Development tools (optional)
+black
+isort
+mypy
