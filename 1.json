@@ -1,1400 +1,727 @@
 {
-    "link": "https://www.tripadvisor.com/Hotels-g60763-New_York_City_New_York-Hotels.html",
-    "total_pages": 32,
-    "current_page": 1,
-    "total_items_count": 944,
-    "items_count": 37,
-    "results": [
-      {
-        "id": 14013137,
-        "name": "Hilton Club The Residences New York",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d14013137-Reviews-Hilton_Club_The_Residences_New_York-New_York_City_New_York.html",
-        "reviews": 196,
-        "rating": 4.5,
-        "price_range_usd": {
-          "min": 645,
-          "max": 938
-        },
-        "phone": "+1 646-459-6565",
-        "address": "1335 Avenue Of The Americas,44th Fl, New York City, NY 10019",
-        "detailed_address": {
-          "street": "1335 Avenue Of The Americas,44th, Fl",
-          "city": "New York City",
-          "postal_code": "10019",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 181,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.762447,
-        "longitude": -73.97927,
-        "amenities": [
-          "Free Wifi",
-          "Restaurant",
-          "Room service",
-          "Bar/Lounge",
-          "Fitness center"
-        ],
-        "providers": [
-          "Hilton"
-        ]
-      },
-      {
-        "id": 93358,
-        "name": "Pod 51 Hotel",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d93358-Reviews-Pod_51_Hotel-New_York_City_New_York.html",
-        "reviews": 6301,
-        "rating": 4,
-        "price_range_usd": {
-          "min": 162,
-          "max": 254
-        },
-        "phone": "+1 212-355-0300",
-        "address": "230 East 51st Street, New York City, NY 10022-6571",
-        "detailed_address": {
-          "street": "230 East 51st Street",
-          "city": "New York City",
-          "postal_code": "10022-6571",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 243,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.755814,
-        "longitude": -73.96907,
-        "amenities": [
-          "Free Wifi",
-          "Restaurant",
-          "Bar/Lounge"
-        ],
-        "providers": [
-          "Booking.com",
-          "Hotels.com",
-          "Priceline",
-          "Vio.com"
-        ]
-      },
-      {
-        "id": 93627,
-        "name": "West Side YMCA",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d93627-Reviews-West_Side_YMCA-New_York_City_New_York.html",
-        "reviews": 1650,
-        "rating": 3,
-        "price_range_usd": {
-          "min": 104,
-          "max": 153
-        },
-        "phone": "+1 212-912-2625",
-        "address": "5 West 63rd Street, New York City, NY 10023-7162",
-        "detailed_address": {
-          "street": "5 West 63rd Street",
-          "city": "New York City",
-          "postal_code": "10023-7162",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 46,
-          "total": 191
-        },
-        "featured_image": null,
-        "latitude": 40.77096,
-        "longitude": -73.98044,
-        "amenities": [
-          "Pool",
-          "Fitness center"
-        ],
-        "providers": [
-          "Booking.com",
-          "Trip.com",
-          "Hotels.com",
-          "Expedia.com"
-        ]
-      },
-      {
-        "id": 93517,
-        "name": "Paramount Hotel",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d93517-Reviews-Paramount_Hotel-New_York_City_New_York.html",
-        "reviews": 2672,
-        "rating": 3.5,
-        "price_range_usd": {
-          "min": 207,
-          "max": 286
-        },
-        "phone": "+1 212-764-5500",
-        "address": "235 W 46th St, New York City, NY 10036-1409",
-        "detailed_address": {
-          "street": "235 W 46th St",
-          "city": "New York City",
-          "postal_code": "10036-1409",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 474,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.75956,
-        "longitude": -73.98696,
-        "amenities": [
-          "Fitness center"
-        ],
-        "providers": [
-          "Booking.com",
-          "Expedia.com",
-          "Hotels.com",
-          "Skyscanner.com"
-        ]
-      },
-      {
-        "id": 12301470,
-        "name": "Moxy NYC Times Square",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d12301470-Reviews-Moxy_NYC_Times_Square-New_York_City_New_York.html",
-        "reviews": 3629,
-        "rating": 4.5,
-        "price_range_usd": {
-          "min": 223,
-          "max": 388
-        },
-        "phone": "+1 212-967-6699",
-        "address": "485 7th Avenue, New York City, NY 10018-6804",
-        "detailed_address": {
-          "street": "485 7th Avenue",
-          "city": "New York City",
-          "postal_code": "10018-6804",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 48,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.752316,
-        "longitude": -73.98913,
-        "amenities": [
-          "Free Wifi",
-          "Restaurant",
-          "Bar/Lounge",
-          "Fitness center"
-        ],
-        "providers": [
-          "Booking.com",
-          "Hotels.com",
-          "Expedia.com",
-          "Algotels"
-        ]
-      },
-      {
-        "id": 23462501,
-        "name": "Margaritaville Resort Times Square",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d23462501-Reviews-Margaritaville_Resort_Times_Square-New_York_City_New_York.html",
-        "reviews": 783,
-        "rating": 4.5,
-        "price_range_usd": {
-          "min": 302,
-          "max": 456
-        },
-        "phone": "+1 212-221-3007",
-        "address": "560 7th Ave, New York City, NY 10018",
-        "detailed_address": {
-          "street": "560 7th Ave",
-          "city": "New York City",
-          "postal_code": "10018",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 130,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.755108,
-        "longitude": -73.98815,
-        "amenities": [
-          "Free Wifi",
-          "Pool",
-          "Restaurant",
-          "Room service",
-          "Bar/Lounge"
-        ],
-        "providers": [
-          "Booking.com",
-          "Hotels.com",
-          "Expedia.com",
-          "Tripadvisor"
-        ]
-      },
-      {
-        "id": 208452,
-        "name": "Conrad New York Downtown",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d208452-Reviews-Conrad_New_York_Downtown-New_York_City_New_York.html",
-        "reviews": 4720,
-        "rating": 4.5,
-        "price_range_usd": {
-          "min": 402,
-          "max": 732
-        },
-        "phone": "+1 212-945-0100",
-        "address": "102 North End Avenue, New York City, NY 10282",
-        "detailed_address": {
-          "street": "102 North End Avenue",
-          "city": "New York City",
-          "postal_code": "10282",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 87,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.715023,
-        "longitude": -74.0158,
-        "amenities": [
-          "Free Wifi",
-          "Restaurant",
-          "Room service",
-          "Bar/Lounge",
-          "Fitness center"
-        ],
-        "providers": [
-          "Conrad"
-        ]
-      },
-      {
-        "id": 93520,
-        "name": "Park Central Hotel New York",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d93520-Reviews-Park_Central_Hotel_New_York-New_York_City_New_York.html",
-        "reviews": 8857,
-        "rating": 4,
-        "price_range_usd": {
-          "min": 264,
-          "max": 461
-        },
-        "phone": "+1 212-247-8000",
-        "address": "870 7th Ave, New York City, NY 10019",
-        "detailed_address": {
-          "street": "870 7th Ave",
-          "city": "New York City",
-          "postal_code": "10019",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 346,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.764618,
-        "longitude": -73.980896,
-        "amenities": [
-          "Room service",
-          "Fitness center"
-        ],
-        "providers": [
-          "Booking.com",
-          "Trip.com",
-          "Official Site",
-          "Skyscanner.com"
-        ]
-      },
-      {
-        "id": 112064,
-        "name": "Warwick New York",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d112064-Reviews-Warwick_New_York-New_York_City_New_York.html",
-        "reviews": 5446,
-        "rating": 4.5,
-        "price_range_usd": {
-          "min": 277,
-          "max": 441
-        },
-        "phone": "+1 212-247-2700",
-        "address": "65 W 54th St, New York City, NY 10019",
-        "detailed_address": {
-          "street": "65 W 54th St",
-          "city": "New York City",
-          "postal_code": "10019",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 247,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.762466,
-        "longitude": -73.9781,
-        "amenities": [
-          "Restaurant",
-          "Room service",
-          "Bar/Lounge",
-          "Fitness center"
-        ],
-        "providers": [
-          "Booking.com",
-          "Expedia.com",
-          "Hotels.com",
-          "Agoda.com"
-        ]
-      },
-      {
-        "id": 5040757,
-        "name": "Homewood Suites by Hilton New York/Midtown Manhattan Times Square-South, NY",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d5040757-Reviews-Homewood_Suites_by_Hilton_New_York_Midtown_Manhattan_Times_Square_South_NY-New_York_C.html",
-        "reviews": 4620,
-        "rating": 4.5,
-        "price_range_usd": {
-          "min": 258,
-          "max": 439
-        },
-        "phone": "+1 212-244-0644",
-        "address": "312 West 37th Street, New York City, NY 10018",
-        "detailed_address": {
-          "street": "312 West 37th Street",
-          "city": "New York City",
-          "postal_code": "10018",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 100,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.754345,
-        "longitude": -73.99311,
-        "amenities": [
-          "Free Wifi",
-          "Fitness center"
-        ],
-        "providers": [
-          "Homewood",
-          "Booking.com",
-          "Expedia.com",
-          "Skyscanner.com"
-        ]
-      },
-      {
-        "id": 122005,
-        "name": "The New Yorker, A Wyndham Hotel",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d122005-Reviews-The_New_Yorker_A_Wyndham_Hotel-New_York_City_New_York.html",
-        "reviews": 16327,
-        "rating": 4,
-        "price_range_usd": {
-          "min": 219,
-          "max": 362
-        },
-        "phone": "+1 212-971-0101",
-        "address": "481 8th Avenue & 34th Street, New York City, NY 10001-1809",
-        "detailed_address": {
-          "street": "481 8th Avenue & 34th Street",
-          "city": "New York City",
-          "postal_code": "10001-1809",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 303,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.75263,
-        "longitude": -73.993385,
-        "amenities": [
-          "Restaurant",
-          "Room service",
-          "Bar/Lounge",
-          "Fitness center"
-        ],
-        "providers": [
-          "Booking.com",
-          "Expedia.com",
-          "Priceline",
-          "Skyscanner.com"
-        ]
-      },
-      {
-        "id": 93454,
-        "name": "Crowne Plaza Times Square Manhattan, an IHG Hotel",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d93454-Reviews-Crowne_Plaza_Times_Square_Manhattan_an_IHG_Hotel-New_York_City_New_York.html",
-        "reviews": 12260,
-        "rating": 4,
-        "price_range_usd": {
-          "min": 252,
-          "max": 425
-        },
-        "phone": "+1 212-977-4000",
-        "address": "1605 Broadway, New York City, NY 10019",
-        "detailed_address": {
-          "street": "1605 Broadway",
-          "city": "New York City",
-          "postal_code": "10019",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 375,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.760742,
-        "longitude": -73.98506,
-        "amenities": [
-          "Room service"
-        ],
-        "providers": [
-          "Booking.com",
-          "Hotels.com",
-          "Expedia.com",
-          "Skyscanner.com"
-        ]
-      },
-      {
-        "id": 23383444,
-        "name": "Hilton Club The Central at 5th New York",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d23383444-Reviews-Hilton_Club_The_Central_at_5th_New_York-New_York_City_New_York.html",
-        "reviews": 101,
-        "rating": 4.5,
-        "price_range_usd": {
-          "min": 334,
-          "max": 505
-        },
-        "phone": "+1 646-869-8900",
-        "address": "12 East 48th Street, New York City, NY 10017",
-        "detailed_address": {
-          "street": "12 East 48th Street",
-          "city": "New York City",
-          "postal_code": "10017",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 306,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.75662,
-        "longitude": -73.97696,
-        "amenities": [
-          "Free Wifi",
-          "Fitness center"
-        ],
-        "providers": [
-          "Hilton"
-        ]
-      },
-      {
-        "id": 93450,
-        "name": "Hyatt Grand Central New York",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d93450-Reviews-Hyatt_Grand_Central_New_York-New_York_City_New_York.html",
-        "reviews": 13828,
-        "rating": 3.5,
-        "price_range_usd": {
-          "min": 268,
-          "max": 391
-        },
-        "phone": "+1 212-883-1234",
-        "address": "109 East 42nd Street At Grand Central Terminal, New York City, NY 10017-8500",
-        "detailed_address": {
-          "street": "109 East 42nd Street, At Grand Central Terminal",
-          "city": "New York City",
-          "postal_code": "10017-8500",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 410,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.752064,
-        "longitude": -73.9763,
-        "amenities": [
-          "Free Wifi",
-          "Fitness center"
-        ],
-        "providers": [
-          "Booking.com",
-          "Expedia.com",
-          "Hotels.com",
-          "Trip.com"
-        ]
-      },
-      {
-        "id": 7891458,
-        "name": "Arlo SoHo",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d7891458-Reviews-Arlo_SoHo-New_York_City_New_York.html",
-        "reviews": 3188,
-        "rating": 4.5,
-        "price_range_usd": {
-          "min": 237,
-          "max": 391
-        },
-        "phone": "+1 212-342-7000",
-        "address": "231 Hudson Street, New York City, NY 10013",
-        "detailed_address": {
-          "street": "231 Hudson Street",
-          "city": "New York City",
-          "postal_code": "10013",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 25,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.72449,
-        "longitude": -74.00797,
-        "amenities": [
-          "Free Wifi",
-          "Restaurant",
-          "Room service",
-          "Bar/Lounge"
-        ],
-        "providers": [
-          "Booking.com",
-          "Hotels.com",
-          "Expedia.com",
-          "Agoda.com"
-        ]
-      },
-      {
-        "id": 671150,
-        "name": "The Empire Hotel",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d671150-Reviews-The_Empire_Hotel-New_York_City_New_York.html",
-        "reviews": 8869,
-        "rating": 3.5,
-        "price_range_usd": {
-          "min": 198,
-          "max": 358
-        },
-        "phone": "+1 212-265-7400",
-        "address": "44 West 63rd Street, New York City, NY 10023-7029",
-        "detailed_address": {
-          "street": "44 West 63rd Street",
-          "city": "New York City",
-          "postal_code": "10023-7029",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 322,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.771496,
-        "longitude": -73.982666,
-        "amenities": [
-          "Pool",
-          "Restaurant",
-          "Bar/Lounge",
-          "Fitness center"
-        ],
-        "providers": [
-          "Booking.com",
-          "Expedia.com",
-          "Hotels.com",
-          "Skyscanner.com"
-        ]
-      },
-      {
-        "id": 15237449,
-        "name": "Artezen Hotel",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d15237449-Reviews-Artezen_Hotel-New_York_City_New_York.html",
-        "reviews": 550,
-        "rating": 5,
-        "price_range_usd": {
-          "min": 215,
-          "max": 356
-        },
-        "phone": "+1 212-566-5511",
-        "address": "24 John Street, New York City, NY 10038-4020",
-        "detailed_address": {
-          "street": "24 John Street",
-          "city": "New York City",
-          "postal_code": "10038-4020",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 29,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.709583,
-        "longitude": -74.00874,
-        "amenities": [
-          "Free Wifi",
-          "Fitness center"
-        ],
-        "providers": [
-          "Booking.com",
-          "Hotels.com",
-          "Agoda.com",
-          "Vio.com"
-        ]
-      },
-      {
-        "id": 12551350,
-        "name": "Pod Times Square",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d12551350-Reviews-Pod_Times_Square-New_York_City_New_York.html",
-        "reviews": 2820,
-        "rating": 4,
-        "price_range_usd": {
-          "min": 168,
-          "max": 275
-        },
-        "phone": "+1 844-763-7666",
-        "address": "400 W 42nd St, New York City, NY 10036-6809",
-        "detailed_address": {
-          "street": "400 W 42nd St",
-          "city": "New York City",
-          "postal_code": "10036-6809",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 160,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.758465,
-        "longitude": -73.9931,
-        "amenities": [
-          "Free Wifi",
-          "Restaurant",
-          "Bar/Lounge"
-        ],
-        "providers": [
-          "Booking.com",
-          "Hotels.com",
-          "Expedia.com",
-          "KLOOK"
-        ]
-      },
-      {
-        "id": 234762,
-        "name": "Hilton Club The Quin New York",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d234762-Reviews-Hilton_Club_The_Quin_New_York-New_York_City_New_York.html",
-        "reviews": 3748,
-        "rating": 4.5,
-        "price_range_usd": {
-          "min": 343,
-          "max": 500
-        },
-        "phone": "+1 212-245-7846",
-        "address": "101 W. 57th Street at 6th Avenue, New York City, NY 10019",
-        "detailed_address": {
-          "street": "101 W. 57th Street, at 6th Avenue",
-          "city": "New York City",
-          "postal_code": "10019",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 198,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.76439,
-        "longitude": -73.97747,
-        "amenities": [
-          "Free Wifi",
-          "Fitness center"
-        ],
-        "providers": [
-          "Hilton"
-        ]
-      },
-      {
-        "id": 17783246,
-        "name": "Moxy NYC East Village",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d17783246-Reviews-Moxy_NYC_East_Village-New_York_City_New_York.html",
-        "reviews": 1308,
-        "rating": 5,
-        "price_range_usd": {
-          "min": 253,
-          "max": 450
-        },
-        "phone": "+1 212-288-6699",
-        "address": "112 East 11th Street, New York City, NY 10003",
-        "detailed_address": {
-          "street": "112 East 11th Street",
-          "city": "New York City",
-          "postal_code": "10003",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 13,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.731506,
-        "longitude": -73.989555,
-        "amenities": [
-          "Free Wifi",
-          "Restaurant",
-          "Bar/Lounge",
-          "Fitness center"
-        ],
-        "providers": [
-          "Booking.com",
-          "Expedia.com",
-          "Hotels.com",
-          "Trip.com"
-        ]
-      },
-      {
-        "id": 2173604,
-        "name": "Dream Downtown",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d2173604-Reviews-Dream_Downtown-New_York_City_New_York.html",
-        "reviews": 4569,
-        "rating": 4,
-        "price_range_usd": {
-          "min": 265,
-          "max": 431
-        },
-        "phone": "+1 212-229-2559",
-        "address": "355 West 16 Street, New York City, NY 10011",
-        "detailed_address": {
-          "street": "355 West 16 Street",
-          "city": "New York City",
-          "postal_code": "10011",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 317,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.742477,
-        "longitude": -74.00335,
-        "amenities": [
-          "Free Wifi",
-          "Pool",
-          "Restaurant",
-          "Room service",
-          "Bar/Lounge"
-        ],
-        "providers": [
-          "Booking.com",
-          "Hotels.com",
-          "Expedia.com",
-          "Skyscanner.com"
-        ]
-      },
-      {
-        "id": 8035866,
-        "name": "Hampton Inn Manhattan/times Square Central",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d8035866-Reviews-Hampton_Inn_Manhattan_times_Square_Central-New_York_City_New_York.html",
-        "reviews": 3690,
-        "rating": 4.5,
-        "price_range_usd": {
-          "min": 232,
-          "max": 362
-        },
-        "phone": "+1 212-221-1188",
-        "address": "220 West 41st St., New York City, NY 10036-7203",
-        "detailed_address": {
-          "street": "220 West 41st St.",
-          "city": "New York City",
-          "postal_code": "10036-7203",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 163,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.7556,
-        "longitude": -73.9887,
-        "amenities": [
-          "Free Wifi",
-          "Breakfast included",
-          "Fitness center"
-        ],
-        "providers": [
-          "Hampton",
-          "Booking.com",
-          "Expedia.com",
-          "Skyscanner.com"
-        ]
-      },
-      {
-        "id": 26335829,
-        "name": "Motto By Hilton New York City Times Square",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d26335829-Reviews-Motto_By_Hilton_New_York_City_Times_Square-New_York_City_New_York.html",
-        "reviews": 138,
-        "rating": 4.5,
-        "price_range_usd": {
-          "min": 223,
-          "max": 309
-        },
-        "phone": "+1 212-668-8648",
-        "address": "150 A West 48th Street, New York City, NY 10036",
-        "detailed_address": {
-          "street": "150 A West 48th Street",
-          "city": "New York City",
-          "postal_code": "10036",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 258,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.75932,
-        "longitude": -73.983536,
-        "amenities": [
-          "Free Wifi",
-          "Restaurant",
-          "Bar/Lounge",
-          "Fitness center"
-        ],
-        "providers": [
-          "Motto",
-          "Booking.com",
-          "Expedia.com",
-          "Hotels.com"
-        ]
-      },
-      {
-        "id": 11998087,
-        "name": "Embassy Suites by Hilton New York Manhattan Times Square",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d11998087-Reviews-Embassy_Suites_by_Hilton_New_York_Manhattan_Times_Square-New_York_City_New_York.html",
-        "reviews": 1634,
-        "rating": 4,
-        "price_range_usd": {
-          "min": 248,
-          "max": 419
-        },
-        "phone": "+1 212-912-0111",
-        "address": "60 West 37th Street, New York City, NY 10018",
-        "detailed_address": {
-          "street": "60 West 37th Street",
-          "city": "New York City",
-          "postal_code": "10018",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 244,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.75134,
-        "longitude": -73.98582,
-        "amenities": [
-          "Free Wifi",
-          "Breakfast included",
-          "Restaurant",
-          "Room service",
-          "Bar/Lounge"
-        ],
-        "providers": [
-          "Embassy",
-          "Booking.com",
-          "Expedia.com",
-          "Skyscanner.com"
-        ]
-      },
-      {
-        "id": 1308397,
-        "name": "Hilton Club West 57th Street New York",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d1308397-Reviews-Hilton_Club_West_57th_Street_New_York-New_York_City_New_York.html",
-        "reviews": 1946,
-        "rating": 4.5,
-        "price_range_usd": {
-          "min": 373,
-          "max": 498
-        },
-        "phone": "+1 212-379-0103",
-        "address": "102 West 57th Street, New York City, NY 10019",
-        "detailed_address": {
-          "street": "102 West 57th Street",
-          "city": "New York City",
-          "postal_code": "10019",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 99,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.76444,
-        "longitude": -73.978035,
-        "amenities": [
-          "Free Wifi"
-        ],
-        "providers": [
-          "Hilton"
-        ]
-      },
-      {
-        "id": 93507,
-        "name": "New York Marriott Marquis",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d93507-Reviews-New_York_Marriott_Marquis-New_York_City_New_York.html",
-        "reviews": 13652,
-        "rating": 4,
-        "price_range_usd": {
-          "min": 426,
-          "max": 627
-        },
-        "phone": "+1 212-398-1900",
-        "address": "1535 Broadway, New York City, NY 10036",
-        "detailed_address": {
-          "street": "1535 Broadway",
-          "city": "New York City",
-          "postal_code": "10036",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 264,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.758583,
-        "longitude": -73.98582,
-        "amenities": [
-          "Restaurant",
-          "Room service",
-          "Bar/Lounge",
-          "Fitness center"
-        ],
-        "providers": [
-          "Booking.com",
-          "Hotels.com",
-          "Expedia.com",
-          "Algotels"
-        ]
-      },
-      {
-        "id": 93437,
-        "name": "Hotel Edison",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d93437-Reviews-Hotel_Edison-New_York_City_New_York.html",
-        "reviews": 16097,
-        "rating": 4,
-        "price_range_usd": {
-          "min": 217,
-          "max": 402
-        },
-        "phone": "+1 212-840-5000",
-        "address": "228 West 47th Street, New York City, NY 10036-1401",
-        "detailed_address": {
-          "street": "228 West 47th Street",
-          "city": "New York City",
-          "postal_code": "10036-1401",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 248,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.759735,
-        "longitude": -73.98615,
-        "amenities": [
-          "Bar/Lounge",
-          "Fitness center"
-        ],
-        "providers": [
-          "Booking.com",
-          "Priceline",
-          "Algotels",
-          "Agoda.com"
-        ]
-      },
-      {
-        "id": 208453,
-        "name": "Hilton New York Times Square",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d208453-Reviews-Hilton_New_York_Times_Square-New_York_City_New_York.html",
-        "reviews": 8642,
-        "rating": 4.5,
-        "price_range_usd": {
-          "min": 260,
-          "max": 393
-        },
-        "phone": "+1 212-913-9488",
-        "address": "234 West 42nd Street, New York City, NY 10036",
-        "detailed_address": {
-          "street": "234 West 42nd Street",
-          "city": "New York City",
-          "postal_code": "10036",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 311,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.756603,
-        "longitude": -73.98883,
-        "amenities": [
-          "Restaurant",
-          "Bar/Lounge",
-          "Fitness center"
-        ],
-        "providers": [
-          "Hilton",
-          "Hotels.com",
-          "Booking.com",
-          "Skyscanner.com"
-        ]
-      },
-      {
-        "id": 10541730,
-        "name": "Arlo NoMad",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d10541730-Reviews-Arlo_NoMad-New_York_City_New_York.html",
-        "reviews": 2392,
-        "rating": 4.5,
-        "price_range_usd": {
-          "min": 234,
-          "max": 368
-        },
-        "phone": "+1 212-806-7000",
-        "address": "11 East 31st Street, New York City, NY 10016",
-        "detailed_address": {
-          "street": "11 East 31st Street",
-          "city": "New York City",
-          "postal_code": "10016",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 38,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.74627,
-        "longitude": -73.98494,
-        "amenities": [
-          "Free Wifi",
-          "Restaurant",
-          "Bar/Lounge"
-        ],
-        "providers": [
-          "Booking.com",
-          "Hotels.com",
-          "Expedia.com",
-          "Skyscanner.com"
-        ]
-      },
-      {
-        "id": 93610,
-        "name": "Royalton New York",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d93610-Reviews-Royalton_New_York-New_York_City_New_York.html",
-        "reviews": 3314,
-        "rating": 4,
-        "price_range_usd": {
-          "min": 211,
-          "max": 384
-        },
-        "phone": "+1 212-869-4400",
-        "address": "44 West 44th Street, New York City, NY 10036-6604",
-        "detailed_address": {
-          "street": "44 West 44th Street",
-          "city": "New York City",
-          "postal_code": "10036-6604",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 256,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.755596,
-        "longitude": -73.98231,
-        "amenities": [
-          "Fitness center"
-        ],
-        "providers": [
-          "Booking.com",
-          "Expedia.com",
-          "Vio.com",
-          "Skyscanner.com"
-        ]
-      },
-      {
-        "id": 1379306,
-        "name": "The Hilton Club - New York",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d1379306-Reviews-The_Hilton_Club_New_York-New_York_City_New_York.html",
-        "reviews": 924,
-        "rating": 4.5,
-        "price_range_usd": {
-          "min": 375,
-          "max": 526
-        },
-        "phone": "+1 646-459-6500",
-        "address": "1335 Avenue Of The Americas ,37th Fl, New York City, NY 10019",
-        "detailed_address": {
-          "street": "1335 Avenue Of The Americas, ,37th Fl",
-          "city": "New York City",
-          "postal_code": "10019",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 185,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.76225,
-        "longitude": -73.97919,
-        "amenities": [
-          "Free Wifi",
-          "Bar/Lounge",
-          "Fitness center"
-        ],
-        "providers": [
-          "Hilton"
-        ]
-      },
-      {
-        "id": 93390,
-        "name": "Hotel Belleclaire",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d93390-Reviews-Hotel_Belleclaire-New_York_City_New_York.html",
-        "reviews": 5027,
-        "rating": 4,
-        "price_range_usd": {
-          "min": 234,
-          "max": 429
-        },
-        "phone": "+1 212-362-7700",
-        "address": "2175 Broadway, New York City, NY 10024-6686",
-        "detailed_address": {
-          "street": "2175 Broadway",
-          "city": "New York City",
-          "postal_code": "10024-6686",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 52,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.782486,
-        "longitude": -73.98117,
-        "amenities": [
-          "Free Wifi",
-          "Room service",
-          "Fitness center"
-        ],
-        "providers": [
-          "Booking.com",
-          "Expedia.com",
-          "Hotels.com",
-          "Agoda.com"
-        ]
-      },
-      {
-        "id": 75711,
-        "name": "The Gallivant Times Square",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d75711-Reviews-The_Gallivant_Times_Square-New_York_City_New_York.html",
-        "reviews": 3454,
-        "rating": 3.5,
-        "price_range_usd": {
-          "min": 172,
-          "max": 259
-        },
-        "phone": "+1 212-246-8800",
-        "address": "234 W 48th St, New York City, NY 10036",
-        "detailed_address": {
-          "street": "234 W 48th St",
-          "city": "New York City",
-          "postal_code": "10036",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 483,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.760544,
-        "longitude": -73.98633,
-        "amenities": [
-          "Free Wifi",
-          "Restaurant",
-          "Bar/Lounge"
-        ],
-        "providers": [
-          "Booking.com",
-          "Priceline",
-          "Agoda.com",
-          "Skyscanner.com"
-        ]
-      },
-      {
-        "id": 12297961,
-        "name": "Hilton Garden Inn NYC Financial Center / Manhattan Downtown",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d12297961-Reviews-Hilton_Garden_Inn_NYC_Financial_Center_Manhattan_Downtown-New_York_City_New_York.html",
-        "reviews": 1358,
-        "rating": 4.5,
-        "price_range_usd": {
-          "min": 192,
-          "max": 328
-        },
-        "phone": "+1 212-248-1100",
-        "address": "6 Water Street, New York City, NY 10004",
-        "detailed_address": {
-          "street": "6 Water Street",
-          "city": "New York City",
-          "postal_code": "10004",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 41,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.70296,
-        "longitude": -74.01228,
-        "amenities": [
-          "Free Wifi",
-          "Restaurant",
-          "Room service",
-          "Bar/Lounge",
-          "Fitness center"
-        ],
-        "providers": [
-          "Hilton Garden Inn",
-          "Booking.com",
-          "Expedia.com",
-          "Algotels"
-        ]
-      },
-      {
-        "id": 93612,
-        "name": "Shoreham Hotel",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d93612-Reviews-Shoreham_Hotel-New_York_City_New_York.html",
-        "reviews": 2761,
-        "rating": 4,
-        "price_range_usd": {
-          "min": 178,
-          "max": 346
-        },
-        "phone": "+1 212-247-6700",
-        "address": "33 W 55th Street, New York City, NY 10019",
-        "detailed_address": {
-          "street": "33 W 55th Street",
-          "city": "New York City",
-          "postal_code": "10019",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 298,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.762505,
-        "longitude": -73.97642,
-        "amenities": [
-          "Restaurant",
-          "Room service",
-          "Bar/Lounge",
-          "Fitness center"
-        ],
-        "providers": [
-          "Booking.com",
-          "Expedia.com",
-          "Hotels.com",
-          "Skyscanner.com"
-        ]
-      },
-      {
-        "id": 12533513,
-        "name": "PUBLIC Hotel",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d12533513-Reviews-PUBLIC_Hotel-New_York_City_New_York.html",
-        "reviews": 2019,
-        "rating": 4.5,
-        "price_range_usd": {
-          "min": 207,
-          "max": 438
-        },
-        "phone": "+1 212-735-6000",
-        "address": "215 Chrystie Street, New York City, NY 10002",
-        "detailed_address": {
-          "street": "215 Chrystie Street",
-          "city": "New York City",
-          "postal_code": "10002",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 20,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.723003,
-        "longitude": -73.99175,
-        "amenities": [
-          "Free Wifi",
-          "Restaurant",
-          "Bar/Lounge",
-          "Fitness center"
-        ],
-        "providers": [
-          "Hotels.com",
-          "Trip.com",
-          "Expedia.com",
-          "Skyscanner.com"
-        ]
-      },
-      {
-        "id": 25364271,
-        "name": "Home2 Suites by Hilton New York Times Square",
-        "link": "https://www.tripadvisor.com/HotelHighlight-g60763-d25364271-Reviews-Home2_Suites_by_Hilton_New_York_Times_Square-New_York_City_New_York.html",
-        "reviews": 52,
-        "rating": 3.5,
-        "price_range_usd": {
-          "min": 242,
-          "max": 403
-        },
-        "phone": "+1 212-329-3010",
-        "address": "150 W 48th Street, New York City, NY 10017",
-        "detailed_address": {
-          "street": "150 W 48th Street",
-          "city": "New York City",
-          "postal_code": "10017",
-          "state": "New York",
-          "country": "United States"
-        },
-        "ranking": {
-          "current_rank": 422,
-          "total": 503
-        },
-        "featured_image": null,
-        "latitude": 40.759502,
-        "longitude": -73.98363,
-        "amenities": [
-          "Free Wifi",
-          "Breakfast included",
-          "Fitness center"
-        ],
-        "providers": [
-          "Hampton"
-        ]
-      }
-    ]
-  }
+  "link": "https://www.tripadvisor.com/Restaurants-g60763-New_York_City_New_York.html",
+  "total_pages": 333,
+  "current_page": 1,
+  "total_items_count": 10000,
+  "items_count": 37,
+  "results": [
+    {
+      "id": 424545,
+      "name": "Ellen's Stardust Diner",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g60763-d424545-Reviews-Ellen_s_Stardust_Diner-New_York_City_New_York.html",
+      "reviews": 23130,
+      "rating": 4,
+      "price_range_usd": "$$ - $$$",
+      "is_sponsored": true,
+      "menu_link": "https://www.ellensstardustdiner.com/menus/",
+      "reservation_link": null,
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/da/0e/6f/ellen-s-stardust-diner.jpg",
+      "latitude": 40.761883,
+      "longitude": -73.98344,
+      "has_delivery": false,
+      "is_premium": true,
+      "cuisines": [
+        "Diner"
+      ]
+    },
+    {
+      "id": 8567192,
+      "name": "Dos Caminos",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g60763-d8567192-Reviews-Dos_Caminos-New_York_City_New_York.html",
+      "reviews": 1835,
+      "rating": 4.5,
+      "price_range_usd": "$$ - $$$",
+      "is_sponsored": false,
+      "menu_link": null,
+      "reservation_link": "https://tripadvisor.com/Commerce?p=OpenTable&src=232177010&geo=8567192&from=Restaurants&area=reservation_button&slot=1&matchID=1&oos=0&cnt=1&silo=45582&bucket=979641&nrank=1&crank=1&clt=R&ttype=Restaurant&tm=298783037&managed=false&capped=false&gosox=9DMvibDTWdNaFeGYL8QTakyv1LBYZaGpeB4MEHn-hv2mZBN376EHVCGusTIRxmJ8hhSvhMkXVc8cncYLCP63x3iv7NSEyOKRxOiCdLth2_g&cs=1329d840da34a368c9d995be05af7e084_wy9",
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/24/12/64/dos-caminos-times-square.jpg",
+      "latitude": 40.75942,
+      "longitude": -73.98526,
+      "has_delivery": false,
+      "is_premium": false,
+      "cuisines": [
+        "Mexican"
+      ]
+    },
+    {
+      "id": 12425739,
+      "name": "Piccola Cucina Estiatorio",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g60763-d12425739-Reviews-Piccola_Cucina_Estiatorio-New_York_City_New_York.html",
+      "reviews": 809,
+      "rating": 5,
+      "price_range_usd": "$$ - $$$",
+      "is_sponsored": false,
+      "menu_link": "http://www.piccolacucinagroup.com/wp-content/uploads/2018/06/Menu-Estiatorio-2018-compressed.pdf",
+      "reservation_link": "https://tripadvisor.com/Commerce?p=OpenTable&src=232173459&geo=12425739&from=Restaurants&area=reservation_button&slot=2&matchID=1&oos=0&cnt=1&silo=45582&bucket=979641&nrank=2&crank=2&clt=R&ttype=Restaurant&tm=298783037&managed=false&capped=false&gosox=9DMvibDTWdNaFeGYL8QTakyv1LBYZaGpeB4MEHn-hv2mZBN376EHVCGusTIRxmJ8XwbWXK6ktVe76zHk4pkNEU9HMhQdDK2zs2GOmO_NLDc&cs=1de9dd2be8eb2efc8de1c9950f46499b7_hnh",
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/9f/fd/63/piccola-cucina-estiatorio.jpg",
+      "latitude": 40.724686,
+      "longitude": -74.00318,
+      "has_delivery": true,
+      "is_premium": false,
+      "cuisines": [
+        "Italian",
+        "Sicilian"
+      ]
+    },
+    {
+      "id": 23817968,
+      "name": "Recette",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g60827-d23817968-Reviews-Recette-Brooklyn_New_York.html",
+      "reviews": 81,
+      "rating": 5,
+      "price_range_usd": "$$ - $$$",
+      "is_sponsored": false,
+      "menu_link": "https://recettebrooklyn.com/brooklyn-recette-food-menu",
+      "reservation_link": "https://tripadvisor.com/Commerce?p=Grubhub&src=219465933&geo=23817968&from=Restaurants&area=reservation_button&slot=1&matchID=1&oos=0&cnt=1&silo=25768&bucket=852508&nrank=1&crank=1&clt=R&ttype=Restaurant&tm=298783037&managed=false&capped=false&gosox=I-ADlg7wY8lqEq92hGOCPH9yxKao4fnJtoYdd5TLctoCVK2EaqcCi9rOMrUCyEbyd2HlbOYBmEwYgEhVf4o6eONdLyGfqu-HwmGhEXes2Z8&cs=11d3906221c6ed2b5d9ffbcddf7d9b77a_km2",
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/fc/af/db/cesar-salad.jpg",
+      "latitude": 40.713215,
+      "longitude": -73.95632,
+      "has_delivery": true,
+      "is_premium": false,
+      "cuisines": [
+        "French",
+        "European"
+      ]
+    },
+    {
+      "id": 4363835,
+      "name": "Piccola Cucina Osteria",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g60763-d4363835-Reviews-Piccola_Cucina_Osteria-New_York_City_New_York.html",
+      "reviews": 3073,
+      "rating": 4.5,
+      "price_range_usd": "$$ - $$$",
+      "is_sponsored": false,
+      "menu_link": "https://www.piccolacucinagroup.com/wp-content/uploads/2022/10/menu_osteria-10-2022.pdf",
+      "reservation_link": "https://tripadvisor.com/Commerce?p=OpenTable&src=232182033&geo=4363835&from=Restaurants&area=reservation_button&slot=2&matchID=1&oos=0&cnt=1&silo=45582&bucket=979641&nrank=2&crank=2&clt=R&ttype=Restaurant&tm=298783037&managed=false&capped=false&gosox=9DMvibDTWdNaFeGYL8QTakyv1LBYZaGpeB4MEHn-hv2mZBN376EHVCGusTIRxmJ8vSDwqjGSeiRtpFzVol3BBEMOZenqsB3_Q5AL-Sjk660&cs=1eaea848e94c256542df14a762296e74c_13f",
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/5e/1c/e4/piccola-cucina-osteria.jpg",
+      "latitude": 40.72503,
+      "longitude": -74.00328,
+      "has_delivery": true,
+      "is_premium": false,
+      "cuisines": [
+        "Italian",
+        "Sicilian"
+      ]
+    },
+    {
+      "id": 19245342,
+      "name": "The Consulate UWS",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g60763-d19245342-Reviews-The_Consulate_UWS-New_York_City_New_York.html",
+      "reviews": 401,
+      "rating": 5,
+      "price_range_usd": "$$ - $$$",
+      "is_sponsored": false,
+      "menu_link": "https://uws.theconsulate.nyc/new-york-upper-west-side-the-consulate-food-menu",
+      "reservation_link": "https://tripadvisor.com/Commerce?p=Grubhub&src=178309483&geo=19245342&from=Restaurants&area=reservation_button&slot=1&matchID=1&oos=0&cnt=1&silo=25768&bucket=852508&nrank=1&crank=1&clt=R&ttype=Restaurant&tm=298783037&managed=false&capped=false&gosox=I-ADlg7wY8lqEq92hGOCPH9yxKao4fnJtoYdd5TLctoCVK2EaqcCi9rOMrUCyEbyBlDL65Wqh-iZ1xa-qglzAQ837syjXE3Jln4ussIq58o&cs=1677cf3f0ee1ac0bd497a49e3fbbe1436_ujk",
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/d0/07/cd/roasted-baby-rainbow.jpg",
+      "latitude": 40.785793,
+      "longitude": -73.97244,
+      "has_delivery": true,
+      "is_premium": false,
+      "cuisines": [
+        "French"
+      ]
+    },
+    {
+      "id": 457807,
+      "name": "Victor's Cafe",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g60763-d457807-Reviews-Victor_s_Cafe-New_York_City_New_York.html",
+      "reviews": 1683,
+      "rating": 4.5,
+      "price_range_usd": "$$ - $$$",
+      "is_sponsored": true,
+      "menu_link": "https://victorscafe.com/menu/",
+      "reservation_link": null,
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/75/95/e4/victor-s-cafe.jpg",
+      "latitude": 40.762886,
+      "longitude": -73.98414,
+      "has_delivery": false,
+      "is_premium": false,
+      "cuisines": [
+        "Cuban"
+      ]
+    },
+    {
+      "id": 1878682,
+      "name": "Olio E Più",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g60763-d1878682-Reviews-Olio_E_Piu-New_York_City_New_York.html",
+      "reviews": 3549,
+      "rating": 4.5,
+      "price_range_usd": "$$ - $$$",
+      "is_sponsored": false,
+      "menu_link": "https://www.olioepiu.com/nyc-menu/",
+      "reservation_link": "https://tripadvisor.com/Commerce?p=OpenTable&src=232170567&geo=1878682&from=Restaurants&area=reservation_button&slot=1&matchID=1&oos=0&cnt=1&silo=45582&bucket=979641&nrank=1&crank=1&clt=R&ttype=Restaurant&tm=298783037&managed=false&capped=false&gosox=9DMvibDTWdNaFeGYL8QTakyv1LBYZaGpeB4MEHn-hv2mZBN376EHVCGusTIRxmJ8SHfZK__jm-Hcv6soZByQNPDlgsTbXGP4MZMjf0GkJQ4&cs=1f7241c32470953d86663c53fb96d8cd5_czl",
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/e3/88/03/olio-e-piu-patio.jpg",
+      "latitude": 40.733852,
+      "longitude": -73.999855,
+      "has_delivery": false,
+      "is_premium": false,
+      "cuisines": [
+        "Italian",
+        "Pizza"
+      ]
+    },
+    {
+      "id": 10145683,
+      "name": "Petite Boucherie",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g60763-d10145683-Reviews-Petite_Boucherie-New_York_City_New_York.html",
+      "reviews": 730,
+      "rating": 4.5,
+      "price_range_usd": "$$ - $$$",
+      "is_sponsored": false,
+      "menu_link": "https://www.boucherieus.com/petite-boucherie-bistro-menus/",
+      "reservation_link": "https://tripadvisor.com/Commerce?p=OpenTable&src=232172298&geo=10145683&from=Restaurants&area=reservation_button&slot=2&matchID=1&oos=0&cnt=1&silo=45582&bucket=979641&nrank=2&crank=2&clt=R&ttype=Restaurant&tm=298783037&managed=false&capped=false&gosox=9DMvibDTWdNaFeGYL8QTakyv1LBYZaGpeB4MEHn-hv2mZBN376EHVCGusTIRxmJ8gw0f7KZOoKYMgwDfiF1DBPpxEfJoaoFwg6_QH-v5jj4&cs=10c8612a6a893ee02ab8eeab6e3e2005f_dce",
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/9b/58/01/petite-boucherie.jpg",
+      "latitude": 40.733875,
+      "longitude": -74.00041,
+      "has_delivery": true,
+      "is_premium": false,
+      "cuisines": [
+        "French"
+      ]
+    },
+    {
+      "id": 21410713,
+      "name": "La Grande Boucherie",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g60763-d21410713-Reviews-La_Grande_Boucherie-New_York_City_New_York.html",
+      "reviews": 2049,
+      "rating": 5,
+      "price_range_usd": "$$$$",
+      "is_sponsored": false,
+      "menu_link": "https://www.boucherieus.com/la-grande-boucherie-menus/",
+      "reservation_link": "https://tripadvisor.com/Commerce?p=OpenTable&src=232183838&geo=21410713&from=Restaurants&area=reservation_button&slot=2&matchID=1&oos=0&cnt=1&silo=45582&bucket=979641&nrank=2&crank=2&clt=R&ttype=Restaurant&tm=298783037&managed=false&capped=false&gosox=9DMvibDTWdNaFeGYL8QTakyv1LBYZaGpeB4MEHn-hv2mZBN376EHVCGusTIRxmJ8y3f3LuP9xSnjUsFIW-knXFHH2elAIiFTd3OFnkUxQz0&cs=1dde047fa8c20c9f344af134e24453333_wkn",
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/bc/76/0d/la-grande-boucherie-joie.jpg",
+      "latitude": 40.762756,
+      "longitude": -73.980644,
+      "has_delivery": true,
+      "is_premium": false,
+      "cuisines": [
+        "French"
+      ]
+    },
+    {
+      "id": 4522078,
+      "name": "Bill's Bar & Burger",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g60763-d4522078-Reviews-Bill_s_Bar_Burger-New_York_City_New_York.html",
+      "reviews": 1601,
+      "rating": 4.5,
+      "price_range_usd": "$$ - $$$",
+      "is_sponsored": false,
+      "menu_link": null,
+      "reservation_link": "https://tripadvisor.com/Commerce?p=OpenTable&src=232168784&geo=4522078&from=Restaurants&area=reservation_button&slot=1&matchID=1&oos=0&cnt=1&silo=45582&bucket=979641&nrank=1&crank=1&clt=R&ttype=Restaurant&tm=298783037&managed=false&capped=false&gosox=9DMvibDTWdNaFeGYL8QTakyv1LBYZaGpeB4MEHn-hv2mZBN376EHVCGusTIRxmJ8GZLWOr2-t9oWZZ7ybjUi9tb054Havx68XZW90Xzlszc&cs=19aa313badda3d7b7761a92fbdc56daa7_9i1",
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/81/08/f3/bill-s-bar-burger-downtown.jpg",
+      "latitude": 40.709366,
+      "longitude": -74.01418,
+      "has_delivery": false,
+      "is_premium": false,
+      "cuisines": [
+        "American",
+        "Bar"
+      ]
+    },
+    {
+      "id": 14981486,
+      "name": "Bua Thai Ramen & Robata Grill",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g60763-d14981486-Reviews-Bua_Thai_Ramen_Robata_Grill-New_York_City_New_York.html",
+      "reviews": 811,
+      "rating": 5,
+      "price_range_usd": "$$ - $$$",
+      "is_sponsored": false,
+      "menu_link": "http://buathairamennyc.com",
+      "reservation_link": "https://tripadvisor.com/Commerce?p=OpenTable&src=232171705&geo=14981486&from=Restaurants&area=reservation_button&slot=3&matchID=1&oos=0&cnt=1&silo=45582&bucket=979641&nrank=3&crank=3&clt=R&ttype=Restaurant&tm=298783037&managed=false&capped=false&gosox=9DMvibDTWdNaFeGYL8QTakyv1LBYZaGpeB4MEHn-hv2mZBN376EHVCGusTIRxmJ8vPSRApKYp_9Ct9j2Uw2ktRNRx5GfKZw7HBazquROSp4&cs=18312c6dabb170ca88bf0c9a542385572_yj5",
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/ed/3c/43/front-store.jpg",
+      "latitude": 40.776363,
+      "longitude": -73.95308,
+      "has_delivery": true,
+      "is_premium": false,
+      "cuisines": [
+        "Thai"
+      ]
+    },
+    {
+      "id": 423393,
+      "name": "Lupa Osteria Romana",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g60763-d423393-Reviews-Lupa_Osteria_Romana-New_York_City_New_York.html",
+      "reviews": 992,
+      "rating": 4,
+      "price_range_usd": "$$ - $$$",
+      "is_sponsored": true,
+      "menu_link": null,
+      "reservation_link": "https://tripadvisor.com/Commerce?p=Grubhub&src=207353907&geo=423393&from=Restaurants&area=reservation_button&slot=1&matchID=1&oos=0&cnt=1&silo=25768&bucket=852508&nrank=1&crank=1&clt=R&ttype=Restaurant&tm=298783037&managed=false&capped=false&gosox=I-ADlg7wY8lqEq92hGOCPH9yxKao4fnJtoYdd5TLctoCVK2EaqcCi9rOMrUCyEbyk50_DGALXk9xwa8Ns8yTX_OUbG35z3eukaSJC0c684c&cs=1b6714b74524b808492865f79bb68feee_zpd",
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/24/e9/45/spaghetti-carbonara.jpg",
+      "latitude": 40.727646,
+      "longitude": -74.000206,
+      "has_delivery": true,
+      "is_premium": true,
+      "cuisines": [
+        "Italian",
+        "Romana"
+      ]
+    },
+    {
+      "id": 1236281,
+      "name": "Club A Steakhouse",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g60763-d1236281-Reviews-Club_A_Steakhouse-New_York_City_New_York.html",
+      "reviews": 4555,
+      "rating": 4.5,
+      "price_range_usd": "$$$$",
+      "is_sponsored": false,
+      "menu_link": "http://www.clubasteakhouse.com/menu/",
+      "reservation_link": "https://tripadvisor.com/Commerce?p=OpenTable&src=232195221&geo=1236281&from=Restaurants&area=reservation_button&slot=1&matchID=1&oos=0&cnt=1&silo=45582&bucket=979641&nrank=1&crank=1&clt=R&ttype=Restaurant&tm=298783037&managed=false&capped=false&gosox=9DMvibDTWdNaFeGYL8QTakyv1LBYZaGpeB4MEHn-hv2mZBN376EHVCGusTIRxmJ8Z-njVQWV1VBhfcE7fSBpFMJoWbH0g5tySfZBLvqG8N0&cs=151de32612dbc5a048bc5aa7d1fcc5c56_dyl",
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/d3/02/cc/photo2jpg.jpg",
+      "latitude": 40.760056,
+      "longitude": -73.96558,
+      "has_delivery": false,
+      "is_premium": false,
+      "cuisines": [
+        "Steakhouse",
+        "Seafood"
+      ]
+    },
+    {
+      "id": 13504265,
+      "name": "Boucherie Union Square",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g60763-d13504265-Reviews-Boucherie_Union_Square-New_York_City_New_York.html",
+      "reviews": 1524,
+      "rating": 5,
+      "price_range_usd": "$$$$",
+      "is_sponsored": false,
+      "menu_link": "https://www.boucherieus.com/boucherie-union-square-menus/",
+      "reservation_link": "https://tripadvisor.com/Commerce?p=OpenTable&src=232170090&geo=13504265&from=Restaurants&area=reservation_button&slot=2&matchID=1&oos=0&cnt=1&silo=45582&bucket=979641&nrank=2&crank=2&clt=R&ttype=Restaurant&tm=298783037&managed=false&capped=false&gosox=9DMvibDTWdNaFeGYL8QTakyv1LBYZaGpeB4MEHn-hv2mZBN376EHVCGusTIRxmJ8erd6pm5XiJPERDxz4jlbd4stOlOo1wM6lg9tQOphup0&cs=14123dfeac9f26b08ccd6790d5ed9fc06_yvf",
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/2b/b8/inside.jpg",
+      "latitude": 40.737255,
+      "longitude": -73.98823,
+      "has_delivery": true,
+      "is_premium": false,
+      "cuisines": [
+        "French"
+      ]
+    },
+    {
+      "id": 1072874,
+      "name": "Numero 28 Pizzeria",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g60763-d1072874-Reviews-Numero_28_Pizzeria-New_York_City_New_York.html",
+      "reviews": 1860,
+      "rating": 4.5,
+      "price_range_usd": "$$ - $$$",
+      "is_sponsored": false,
+      "menu_link": null,
+      "reservation_link": "https://tripadvisor.com/Commerce?p=OpenTable&src=232172717&geo=1072874&from=Restaurants&area=reservation_button&slot=3&matchID=1&oos=0&cnt=1&silo=45582&bucket=979641&nrank=3&crank=4&clt=R&ttype=Restaurant&tm=298783037&managed=false&capped=false&gosox=9DMvibDTWdNaFeGYL8QTakyv1LBYZaGpeB4MEHn-hv2mZBN376EHVCGusTIRxmJ80bZesjxdV48FuFTmkIjJd7p8Y_MT_36ailljYPM6N_Q&cs=1eeabc3617956cc155e9d7668ef68e15b_56o",
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/b5/c1/39/photo4jpg.jpg",
+      "latitude": 40.730114,
+      "longitude": -74.0028,
+      "has_delivery": true,
+      "is_premium": false,
+      "cuisines": [
+        "Italian",
+        "Pizza"
+      ]
+    },
+    {
+      "id": 8557227,
+      "name": "Jams",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g60763-d8557227-Reviews-Jams-New_York_City_New_York.html",
+      "reviews": 852,
+      "rating": 4.5,
+      "price_range_usd": "$$ - $$$",
+      "is_sponsored": false,
+      "menu_link": "http://places.singleplatform.com/jams---nyc/menu#menu_4590952",
+      "reservation_link": null,
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/90/84/82/lunch-at-jams.jpg",
+      "latitude": 40.764736,
+      "longitude": -73.976524,
+      "has_delivery": false,
+      "is_premium": false,
+      "cuisines": [
+        "American"
+      ]
+    },
+    {
+      "id": 2006608,
+      "name": "Dos Caminos Meatpacking",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g60763-d2006608-Reviews-Dos_Caminos-New_York_City_New_York.html",
+      "reviews": 920,
+      "rating": 4,
+      "price_range_usd": "$$ - $$$",
+      "is_sponsored": false,
+      "menu_link": null,
+      "reservation_link": "https://tripadvisor.com/Commerce?p=OpenTable&src=232180586&geo=2006608&from=Restaurants&area=reservation_button&slot=1&matchID=1&oos=0&cnt=1&silo=45582&bucket=979641&nrank=1&crank=1&clt=R&ttype=Restaurant&tm=298783037&managed=false&capped=false&gosox=9DMvibDTWdNaFeGYL8QTakyv1LBYZaGpeB4MEHn-hv2mZBN376EHVCGusTIRxmJ8LQK14xVhFK0K5JC55Nq7eMMb6X7iDJsnVupBRcnAc3U&cs=1af78847546b12b3628f23d5a85af27ba_vkc",
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/23/f7/39/instagramable-decor.jpg",
+      "latitude": 40.740433,
+      "longitude": -74.00548,
+      "has_delivery": false,
+      "is_premium": false,
+      "cuisines": [
+        "Mexican",
+        "Latin",
+        "Bar"
+      ]
+    },
+    {
+      "id": 424440,
+      "name": "Virgil's Real BBQ - Times Square",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g60763-d424440-Reviews-Virgil_s_Real_BBQ_Times_Square-New_York_City_New_York.html",
+      "reviews": 4882,
+      "rating": 4,
+      "price_range_usd": "$$ - $$$",
+      "is_sponsored": true,
+      "menu_link": null,
+      "reservation_link": "https://tripadvisor.com/Commerce?p=OpenTable&src=232177881&geo=424440&from=Restaurants&area=reservation_button&slot=2&matchID=1&oos=0&cnt=1&silo=45582&bucket=979641&nrank=2&crank=2&clt=R&ttype=Restaurant&tm=298783037&managed=false&capped=false&gosox=9DMvibDTWdNaFeGYL8QTakyv1LBYZaGpeB4MEHn-hv2mZBN376EHVCGusTIRxmJ8O3L8D2DOFyYtmXu27fPVY8XQSTXmvjz3ra4AV53gqYk&cs=1a4de9d5de123e4184d63ee746c0d1272_yzn",
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/e8/f3/22/ribs-in-the-smoker.jpg",
+      "latitude": 40.756783,
+      "longitude": -73.98513,
+      "has_delivery": true,
+      "is_premium": true,
+      "cuisines": [
+        "Barbecue"
+      ]
+    },
+    {
+      "id": 10165896,
+      "name": "SottoCasa Pizzeria",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g60763-d10165896-Reviews-SottoCasa_Pizzeria-New_York_City_New_York.html",
+      "reviews": 439,
+      "rating": 5,
+      "price_range_usd": "$$ - $$$",
+      "is_sponsored": false,
+      "menu_link": "https://harlem.sottocasanyc.com/new-york-harlem-sottocasa-harlem-food-menu",
+      "reservation_link": null,
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/31/60/5f/photo0jpg.jpg",
+      "latitude": 40.80557,
+      "longitude": -73.947655,
+      "has_delivery": false,
+      "is_premium": false,
+      "cuisines": [
+        "Pizza",
+        "Neapolitan"
+      ]
+    },
+    {
+      "id": 12874338,
+      "name": "Los Tacos No. 1",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g60763-d12874338-Reviews-Los_Tacos_No_1-New_York_City_New_York.html",
+      "reviews": 816,
+      "rating": 4.5,
+      "price_range_usd": "$",
+      "is_sponsored": false,
+      "menu_link": "http://lostacos1.com/menus/",
+      "reservation_link": null,
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/f1/0d/db/los-tacos-no-1.jpg",
+      "latitude": 40.75732,
+      "longitude": -73.987656,
+      "has_delivery": false,
+      "is_premium": false,
+      "cuisines": [
+        "Mexican"
+      ]
+    },
+    {
+      "id": 3603515,
+      "name": "Spice Symphony",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g60763-d3603515-Reviews-Spice_Symphony-New_York_City_New_York.html",
+      "reviews": 2902,
+      "rating": 4.5,
+      "price_range_usd": "$$ - $$$",
+      "is_sponsored": false,
+      "menu_link": "https://order.toasttab.com/online/spice-symphony-50th-st-150-east-50th-st",
+      "reservation_link": "https://tripadvisor.com/Commerce?p=OpenTable&src=232182091&geo=3603515&from=Restaurants&area=reservation_button&slot=2&matchID=1&oos=0&cnt=1&silo=45582&bucket=979641&nrank=2&crank=3&clt=R&ttype=Restaurant&tm=298783037&managed=false&capped=false&gosox=9DMvibDTWdNaFeGYL8QTakyv1LBYZaGpeB4MEHn-hv2mZBN376EHVCGusTIRxmJ8JwNU5JU0_hggHckMuoWBsR-fSFEKjxPHIiuxVUpAgpE&cs=1a609fa584e9332df7d1b7a4dd7eb5e7c_vtv",
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/4b/4a/80/spice-symphony.jpg",
+      "latitude": 40.755882,
+      "longitude": -73.97155,
+      "has_delivery": true,
+      "is_premium": true,
+      "cuisines": [
+        "Indian"
+      ]
+    },
+    {
+      "id": 479337,
+      "name": "Bleecker Street Pizza",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g60763-d479337-Reviews-Bleecker_Street_Pizza-New_York_City_New_York.html",
+      "reviews": 1875,
+      "rating": 4.5,
+      "price_range_usd": "$",
+      "is_sponsored": false,
+      "menu_link": "https://slicelife.com/restaurants/ny/new-york/10014/bleecker-street-pizza/menu?utm_campaign=order_now_button&utm_medium=referral&utm_source=",
+      "reservation_link": "https://tripadvisor.com/Commerce?p=Grubhub&src=111244466&geo=479337&from=Restaurants&area=reservation_button&slot=1&matchID=1&oos=0&cnt=1&silo=25768&bucket=852508&nrank=1&crank=1&clt=R&ttype=Restaurant&tm=298783037&managed=false&capped=false&gosox=I-ADlg7wY8lqEq92hGOCPH9yxKao4fnJtoYdd5TLctoCVK2EaqcCi9rOMrUCyEbyyPfmbqvOZbGEOWm0zi8bwbf2Amn0j4o5TG2lLaiCgGM&cs=11a06e2461da2cc0bb55300af60a743b4_hvu",
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/48/cb/9d/img-20191208-144633-largejpg.jpg",
+      "latitude": 40.732197,
+      "longitude": -74.0034,
+      "has_delivery": true,
+      "is_premium": false,
+      "cuisines": [
+        "Pizza"
+      ]
+    },
+    {
+      "id": 1553124,
+      "name": "The Standard Grill",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g60763-d1553124-Reviews-The_Standard_Grill-New_York_City_New_York.html",
+      "reviews": 2022,
+      "rating": 4,
+      "price_range_usd": "$$ - $$$",
+      "is_sponsored": false,
+      "menu_link": "http://www.thestandardgrill.com/",
+      "reservation_link": null,
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/f3/6c/e8/the-standard-grill-entrance.jpg",
+      "latitude": 40.74069,
+      "longitude": -74.00788,
+      "has_delivery": false,
+      "is_premium": false,
+      "cuisines": [
+        "American",
+        "Bar"
+      ]
+    },
+    {
+      "id": 12952148,
+      "name": "Little Alley",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g60763-d12952148-Reviews-Little_Alley-New_York_City_New_York.html",
+      "reviews": 51,
+      "rating": 4,
+      "price_range_usd": "$$ - $$$",
+      "is_sponsored": true,
+      "menu_link": null,
+      "reservation_link": "https://tripadvisor.com/Commerce?p=Delivery_ChowNow&src=183794778&geo=12952148&from=Restaurants&area=reservation_button&slot=1&matchID=1&oos=0&cnt=1&silo=38060&bucket=934910&nrank=1&crank=1&clt=R&ttype=Restaurant&tm=298783037&managed=false&capped=false&gosox=6E4khh0HtNXAL0epq-JuBJi9Hu4KwZkBcTYaPAKPcvyzRzJ-mgpAaP0IUqC44bubNGi9I6nuBPmXmunT2F7Y2drkdv34oHfP3HT-hNtqoMo&cs=1ecbb462489703f3ffbb8647ac641080a_74p",
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/ef/8a/72/chili-chicken.jpg",
+      "latitude": 40.74743,
+      "longitude": -73.97722,
+      "has_delivery": true,
+      "is_premium": true,
+      "cuisines": [
+        "Chinese",
+        "Shanghai"
+      ]
+    },
+    {
+      "id": 481819,
+      "name": "Blue Fin",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g60763-d481819-Reviews-Blue_Fin-New_York_City_New_York.html",
+      "reviews": 2323,
+      "rating": 4,
+      "price_range_usd": "$$ - $$$",
+      "is_sponsored": false,
+      "menu_link": null,
+      "reservation_link": "https://tripadvisor.com/Commerce?p=OpenTable&src=237222106&geo=481819&from=Restaurants&area=reservation_button&slot=1&matchID=1&oos=0&cnt=1&silo=45582&bucket=979641&nrank=1&crank=1&clt=R&ttype=Restaurant&tm=298783037&managed=false&capped=false&gosox=9DMvibDTWdNaFeGYL8QTakyv1LBYZaGpeB4MEHn-hv2mZBN376EHVCGusTIRxmJ8HJ_fRm4ErCRyXp0y5TFi-yWsrBRzz4wPWW7WreuRnM4&cs=183cea7ab9af946e9c694b834ae30e042_74j",
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/c8/69/d1/dining-room.jpg",
+      "latitude": 40.759377,
+      "longitude": -73.98533,
+      "has_delivery": false,
+      "is_premium": false,
+      "cuisines": [
+        "Seafood"
+      ]
+    },
+    {
+      "id": 3443575,
+      "name": "Bruno's Restaurant",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g47927-d3443575-Reviews-Bruno_s_Restaurant-Howard_Beach_Queens_New_York.html",
+      "reviews": 345,
+      "rating": 5,
+      "price_range_usd": "$$ - $$$",
+      "is_sponsored": false,
+      "menu_link": null,
+      "reservation_link": null,
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/35/8d/70/bruno-s-restaurant.jpg",
+      "latitude": 40.660095,
+      "longitude": -73.84044,
+      "has_delivery": false,
+      "is_premium": false,
+      "cuisines": [
+        "Italian"
+      ]
+    },
+    {
+      "id": 3191154,
+      "name": "Bagels & Schmear",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g60763-d3191154-Reviews-Bagels_Schmear-New_York_City_New_York.html",
+      "reviews": 284,
+      "rating": 4.5,
+      "price_range_usd": "$",
+      "is_sponsored": false,
+      "menu_link": "http://www.bagelsandschmear.com/menu.html",
+      "reservation_link": null,
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/ce/e0/84/bagels-schmear.jpg",
+      "latitude": 40.743027,
+      "longitude": -73.98322,
+      "has_delivery": false,
+      "is_premium": false,
+      "cuisines": [
+        "American",
+        "Cafe"
+      ]
+    },
+    {
+      "id": 23988141,
+      "name": "Sicily Osteria",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g60763-d23988141-Reviews-Sicily_Osteria-New_York_City_New_York.html",
+      "reviews": 395,
+      "rating": 4.5,
+      "price_range_usd": "$$ - $$$",
+      "is_sponsored": false,
+      "menu_link": null,
+      "reservation_link": "https://tripadvisor.com/Commerce?p=OpenTable&src=232183623&geo=23988141&from=Restaurants&area=reservation_button&slot=2&matchID=1&oos=0&cnt=1&silo=45582&bucket=979641&nrank=2&crank=3&clt=R&ttype=Restaurant&tm=298783037&managed=false&capped=false&gosox=9DMvibDTWdNaFeGYL8QTakyv1LBYZaGpeB4MEHn-hv2mZBN376EHVCGusTIRxmJ8sXwaNw4tMbdaC2Aa6MFU6xQYj3VYElVkVAW92U6PP6Y&cs=16fdb40b78845e09a2693485cb3e72b3e_abs",
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/4a/b1/94/caption.jpg",
+      "latitude": 40.76004,
+      "longitude": -73.98927,
+      "has_delivery": true,
+      "is_premium": false,
+      "cuisines": [
+        "Italian"
+      ]
+    },
+    {
+      "id": 1370161,
+      "name": "DeStefano's Steak House",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g60827-d1370161-Reviews-DeStefano_s_Steak_House-Brooklyn_New_York.html",
+      "reviews": 293,
+      "rating": 4.5,
+      "price_range_usd": "$$$$",
+      "is_sponsored": false,
+      "menu_link": null,
+      "reservation_link": null,
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/61/5d/f6/photo3jpg.jpg",
+      "latitude": 40.714706,
+      "longitude": -73.94983,
+      "has_delivery": false,
+      "is_premium": false,
+      "cuisines": [
+        "Steakhouse"
+      ]
+    },
+    {
+      "id": 25777160,
+      "name": "Meduza Mediterrania New York",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g60763-d25777160-Reviews-Meduza_Mediterrania_New_York-New_York_City_New_York.html",
+      "reviews": 10,
+      "rating": 4,
+      "price_range_usd": "$$$$",
+      "is_sponsored": true,
+      "menu_link": "http://www.meduza33.com/",
+      "reservation_link": null,
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/29/cb/f0/meduza-main-dining-entrance.jpg",
+      "latitude": 40.739902,
+      "longitude": -74.00572,
+      "has_delivery": false,
+      "is_premium": true,
+      "cuisines": [
+        "Mediterranean"
+      ]
+    },
+    {
+      "id": 7814915,
+      "name": "Loi Estiatorio",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g60763-d7814915-Reviews-Loi_Estiatorio-New_York_City_New_York.html",
+      "reviews": 665,
+      "rating": 4.5,
+      "price_range_usd": "$$ - $$$",
+      "is_sponsored": false,
+      "menu_link": "http://www.loiestiatorio.com/menus",
+      "reservation_link": "https://tripadvisor.com/Commerce?p=OpenTable&src=232174982&geo=7814915&from=Restaurants&area=reservation_button&slot=2&matchID=1&oos=0&cnt=1&silo=45582&bucket=979641&nrank=2&crank=2&clt=R&ttype=Restaurant&tm=298783037&managed=false&capped=false&gosox=9DMvibDTWdNaFeGYL8QTakyv1LBYZaGpeB4MEHn-hv2mZBN376EHVCGusTIRxmJ8kWRlrYOK2LzwlvAxq8QXDddEnGGrqbT-IkCu8U2zAfA&cs=1398d9ad00502c8a662886a6c52f236f1_ytt",
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/e5/8a/20/photo0jpg.jpg",
+      "latitude": 40.765385,
+      "longitude": -73.97797,
+      "has_delivery": true,
+      "is_premium": false,
+      "cuisines": [
+        "Greek"
+      ]
+    },
+    {
+      "id": 2345886,
+      "name": "Jungsik",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g60763-d2345886-Reviews-Jungsik-New_York_City_New_York.html",
+      "reviews": 298,
+      "rating": 4.5,
+      "price_range_usd": "$$$$",
+      "is_sponsored": false,
+      "menu_link": null,
+      "reservation_link": null,
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/a9/1a/6e/jungsik.jpg",
+      "latitude": 40.718826,
+      "longitude": -74.00908,
+      "has_delivery": false,
+      "is_premium": false,
+      "cuisines": [
+        "Korean"
+      ]
+    },
+    {
+      "id": 2071446,
+      "name": "Hobby's Delicatessen & Restaurant",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g46671-d2071446-Reviews-Hobby_s_Delicatessen_Restaurant-Newark_New_Jersey.html",
+      "reviews": 239,
+      "rating": 4.5,
+      "price_range_usd": "$$ - $$$",
+      "is_sponsored": false,
+      "menu_link": null,
+      "reservation_link": "https://tripadvisor.com/Commerce?p=Grubhub&src=259310908&geo=2071446&from=Restaurants&area=reservation_button&slot=1&matchID=1&oos=0&cnt=1&silo=25768&bucket=852508&nrank=1&crank=1&clt=R&ttype=Restaurant&tm=298783037&managed=false&capped=false&gosox=I-ADlg7wY8lqEq92hGOCPH9yxKao4fnJtoYdd5TLctoCVK2EaqcCi9rOMrUCyEbyDcRYkavUs_oHT_ZtcQTuh9qcjZweEk50f0QaxTHQsU0&cs=12eeca9d48f70e811bac08940514a62ae_1ux",
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/61/1f/a7/hobby-s-delicatessen.jpg",
+      "latitude": 40.735165,
+      "longitude": -74.17439,
+      "has_delivery": true,
+      "is_premium": false,
+      "cuisines": [
+        "American",
+        "Deli"
+      ]
+    },
+    {
+      "id": 25096804,
+      "name": "Katherine Meets Toni",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g60763-d25096804-Reviews-Katherine_Meets_Toni-New_York_City_New_York.html",
+      "reviews": 199,
+      "rating": 4.5,
+      "price_range_usd": "$$ - $$$",
+      "is_sponsored": false,
+      "menu_link": "https://menus.trytaptab.com/3ee55f05/1170",
+      "reservation_link": null,
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/c7/44/45/katherine-is-a-lively.jpg",
+      "latitude": 40.750027,
+      "longitude": -73.98589,
+      "has_delivery": false,
+      "is_premium": false,
+      "cuisines": []
+    },
+    {
+      "id": 3437996,
+      "name": "Sottocasa Pizzeria",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g60827-d3437996-Reviews-Sottocasa_Pizzeria-Brooklyn_New_York.html",
+      "reviews": 373,
+      "rating": 4.5,
+      "price_range_usd": "$$ - $$$",
+      "is_sponsored": false,
+      "menu_link": "https://brooklyn.sottocasanyc.com/brooklyn-sottocasa-brooklyn-food-menu",
+      "reservation_link": null,
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/6a/0c/72/photo0jpg.jpg",
+      "latitude": 40.68835,
+      "longitude": -73.98897,
+      "has_delivery": false,
+      "is_premium": false,
+      "cuisines": [
+        "Italian",
+        "Pizza",
+        "Neapolitan"
+      ]
+    },
+    {
+      "id": 13194792,
+      "name": "Ben & Jack's Steakhouse",
+      "link": "https://www.tripadvisor.com/Restaurant_Review-g60763-d13194792-Reviews-Ben_Jack_s_Steakhouse-New_York_City_New_York.html",
+      "reviews": 101,
+      "rating": 4.5,
+      "price_range_usd": "$$$$",
+      "is_sponsored": true,
+      "menu_link": "https://www.benandjackssteakhouse.com/#menus",
+      "reservation_link": null,
+      "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/81/f1/33/steak-for-two.jpg",
+      "latitude": 40.751823,
+      "longitude": -73.97236,
+      "has_delivery": false,
+      "is_premium": true,
+      "cuisines": [
+        "Steakhouse"
+      ]
+    }
+  ]
+}

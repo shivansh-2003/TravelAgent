@@ -1,8 +1,8 @@
 import requests
 
-url = "https://tripadvisor-scraper.p.rapidapi.com/hotels/detail"
+url = "https://tripadvisor-scraper.p.rapidapi.com/restaurants/list"
 
-querystring = {"id":"10131859"}
+querystring = {"query":"new york","page":"1"}
 
 headers = {
 	"x-rapidapi-key": "00c4aad806msh8e00931585a4552p1cba4fjsn25893b3ff1c5",

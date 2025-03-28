@@ -1,57 +1,150 @@
 {
-    "id": 10131859,
-    "name": "Even Hotel New York - Midtown East, an IHG Hotel",
-    "reviews": 1268,
-    "rating": 4.5,
-    "website": "https://tripadvisor.com/Commerce?p=TABAIndependentHotels&src=139918944&geo=10131859&from=Hotel_Review&area=&slot=1&matchID=1&oos=0&cnt=1&silo=30356&bucket=1007820&nrank=1&crank=1&clt=CLD&ttype=ContactLinkDesktop&tm=298781826&managed=false&capped=false&gosox=srVNQGoQ5BIVms7GkGUZCKL4CLybQm-R30SAtBsffBKISYJpTBzVDJrspvZooaZMtTBJMWLqDYB4ZNe5zmZDb3VPZBFy95JDexvnq0Z94dFYs31vxK4UEBk6wMVHkagx&adults=2&child_rm_ages=&inDay=21&outDay=22&rooms=1&dated=true&inMonth=6&inYear=2024&outMonth=6&outYear=2024&def_d=false&bapid=1&cs=1068309c7c5fbf5fcfb630ce891f84bf5_8fw",
-    "email": "evenmidtowneast@ihg.com",
-    "phone": "1 (877) 859-5095",
-    "link": "https://www.tripadvisor.com/Hotel_Review-g60763-d10131859-Reviews-Even_Hotel_New_York_Midtown_East_an_IHG_Hotel-New_York_City_New_York.html",
-    "address": "221 East 44th Street, New York City, NY 10017",
-    "latitude": 40.751835,
-    "longitude": -73.972374,
-    "featured_image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/1c/dc/dd/best-hotel-to-stay-few.jpg",
-    "ranking": {
-      "current_rank": 126,
-      "total": 503
-    },
-    "reviews_per_rating": {
-      "1": 41,
-      "2": 47,
-      "3": 83,
-      "4": 265,
-      "5": 832
-    },
-    "review_keywords": [
-      "exercise equipment",
-      "yoga mat",
-      "ping pong table",
-      "grand central station",
-      "new york",
-      "chrysler building",
-      "united nations",
-      "front desk staff",
-      "convenient location",
-      "hotel experience",
-      "rooms are small",
-      "upon check",
-      "times square",
-      "enjoyed my stay",
-      "bed was very comfortable",
-      "coffee machine",
-      "bryant park",
-      "nyc hotels",
-      "two blocks",
-      "bagels",
-      "wellness",
-      "gym",
-      "midtown",
-      "floor",
-      "subway",
-      "closet",
-      "conditioner",
-      "jfk",
-      "avenue",
-      "broadway"
+  "id": 12425739,
+  "name": "Piccola Cucina Estiatorio",
+  "description": "Piccola Cucina Estiatorio offers typical Sicilian and Greek food.",
+  "reviews": 809,
+  "rating": 5,
+  "link": "https://www.tripadvisor.com/Restaurant_Review-g60763-d12425739-Reviews-Piccola_Cucina_Estiatorio-New_York_City_New_York.html",
+  "email": "info@piccolacucinagroup.com",
+  "phone": "+1 646-781-9183",
+  "website": "http://www.piccolacucinagroup.com/en/",
+  "featured_image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/9f/fd/63/piccola-cucina-estiatorio.jpg",
+  "ranking": {
+    "current_rank": 2,
+    "total": 6719
+  },
+  "address": "75 Thompson St, New York City, NY 10012-4345",
+  "detailed_address": {
+    "street": "75 Thompson St",
+    "city": "New York City",
+    "postal_code": "10012-4345",
+    "state": "New York",
+    "country_code": "US"
+  },
+  "latitude": 40.724686,
+  "longitude": -74.00318,
+  "reviews_per_rating": {
+    "1": 17,
+    "2": 10,
+    "3": 13,
+    "4": 33,
+    "5": 735
+  },
+  "review_keywords": [
+    "cacio e pepe",
+    "pasta",
+    "bucatini",
+    "cannoli",
+    "arancini",
+    "octopus",
+    "bread",
+    "italian food",
+    "italian gem",
+    "amazing food",
+    "new york",
+    "al dente",
+    "my favorite restaurant",
+    "small place",
+    "wine list",
+    "sicilian",
+    "soho",
+    "nyc",
+    "city",
+    "freshness",
+    "waiters",
+    "apps",
+    "hostess"
+  ],
+  "is_open": false,
+  "open_hours": {
+    "sun": [
+      {
+        "open": "11:30:00",
+        "close": "23:00:00"
+      }
+    ],
+    "mon": [
+      {
+        "open": "11:30:00",
+        "close": "23:00:00"
+      }
+    ],
+    "tue": [
+      {
+        "open": "11:30:00",
+        "close": "23:00:00"
+      }
+    ],
+    "wed": [
+      {
+        "open": "11:30:00",
+        "close": "23:00:00"
+      }
+    ],
+    "thu": [
+      {
+        "open": "11:30:00",
+        "close": "23:00:00"
+      }
+    ],
+    "fri": [
+      {
+        "open": "11:30:00",
+        "close": "23:00:00"
+      }
+    ],
+    "sat": [
+      {
+        "open": "11:30:00",
+        "close": "23:00:00"
+      }
     ]
-  }
+  },
+  "menu_link": "http://www.piccolacucinagroup.com/wp-content/uploads/2018/06/Menu-Estiatorio-2018-compressed.pdf",
+  "delivery_url": "https://tripadvisor.com/Commerce?p=Grubhub&src=209704639&geo=12425739&from=Restaurant_Review&area=reservation_button&slot=1&matchID=1&oos=0&cnt=1&silo=25768&bucket=852508&nrank=1&crank=1&clt=R&ttype=Restaurant&tm=298782054&managed=false&capped=false&gosox=I-ADlg7wY8lqEq92hGOCPH9yxKao4fnJtoYdd5TLctoCVK2EaqcCi9rOMrUCyEbyAJGp_D06U3XJoqAsGERynIsWq62bCIUHJf1bvM2xVCk&cs=17e397d2533c39fbe0d18518e4284b585_6sa",
+  "price_range": "$$ - $$$",
+  "cuisines": [
+    "Italian",
+    "Sicilian"
+  ],
+  "diets": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "meal_types": [
+    "Lunch",
+    "Dinner"
+  ],
+  "dining_options": [
+    "Delivery",
+    "Takeout",
+    "Reservations",
+    "Seating",
+    "Wheelchair Accessible",
+    "Serves Alcohol",
+    "Free Wifi",
+    "Accepts Credit Cards",
+    "Table Service"
+  ],
+  "owner_types": [],
+  "top_tags": [
+    "Mid-range",
+    "Italian",
+    "Sicilian",
+    "Vegetarian Friendly"
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
