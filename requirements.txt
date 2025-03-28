@@ -41,3 +41,5 @@ langchain_community
 
 streamlit 
 streamlit_folium
+
+googlemaps
