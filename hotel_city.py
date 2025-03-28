@@ -29,21 +29,27 @@ def fetch_hotels(location="new york", page="1", api_key="00c4aad806msh8e00931585
     except requests.exceptions.RequestException as e:
         print(f"Error making the request: {e}")
         return None
+    
 
 def format_hotel_data(hotel_data):
     """
-    Format hotel data into a readable list.
+    Format hotel data into a readable list and store IDs separately.
     
     Args:
         hotel_data (dict): The JSON response from the TripAdvisor API
     
     Returns:
-        str: Formatted hotel information
+        tuple: (formatted_result, hotel_ids_dict)
+            - formatted_result: String with formatted hotel info (without IDs)
+            - hotel_ids_dict: Dictionary mapping hotel numbers to their IDs
     """
     if not hotel_data or 'results' not in hotel_data:
-        return "No hotel data available or invalid response format."
+        return "No hotel data available or invalid response format.", {}
     
     result = f"Found {hotel_data.get('total_items_count', 0)} hotels in total. Showing page {hotel_data.get('current_page', 1)} of {hotel_data.get('total_pages', 1)}.\n\n"
+    
+    # Dictionary to store hotel IDs (not displayed)
+    hotel_ids = {}
     
     for i, hotel in enumerate(hotel_data['results'], 1):
         name = hotel.get('name', 'Unknown Hotel')
@@ -55,27 +61,32 @@ def format_hotel_data(hotel_data):
         max_price = price_range.get('max', 'N/A')
         price_str = f"Price: {min_price}-{max_price}" if min_price != 'N/A' and max_price != 'N/A' else "Price: N/A"
         
-        # Get hotel ID
+        # Store hotel ID in dictionary but don't display it in results
         hotel_id = hotel.get('id', 'N/A')
+        hotel_ids[i] = hotel_id
         
-        result += f"{i}. {name} - Rating: {rating} - {price_str} - ID: {hotel_id}\n"
+        # Display hotel info without the ID
+        result += f"{i}. {name} - Rating: {rating} - {price_str}\n"
     
-    return result
+    return result, hotel_ids
 
 def main():
     """
     Main function to run the hotel data fetcher.
     """
     location = input("Enter location to search for hotels (default: new york): ") or "new york"
-   
     
     print(f"\nFetching hotel data for {location}\n")
     
     hotel_data = fetch_hotels(location)
-    
     if hotel_data:
-        formatted_data = format_hotel_data(hotel_data)
+        # Format hotel data and get hotel IDs
+        formatted_data, hotel_ids = format_hotel_data(hotel_data)
+        
+        # Display the formatted data (which doesn't include IDs)
         print(formatted_data)
+        
+        # Hotel IDs are stored in the hotel_ids dictionary but not displayed
         
         # Optionally save the results to a file
         save_option = input("\nWould you like to save the results to a file? (y/n): ").lower()
@@ -89,6 +100,11 @@ def main():
             with open(f"raw_{filename.split('.')[0]}.json", 'w') as f:
                 json.dump(hotel_data, f, indent=2)
             print(f"Raw data saved to raw_{filename.split('.')[0]}.json")
+            
+            # Save the hotel IDs to a separate file
+            with open(f"hotel_ids_{filename.split('.')[0]}.json", 'w') as f:
+                json.dump({"hotel_ids": hotel_ids}, f, indent=2)
+            print(f"Hotel IDs saved to hotel_ids_{filename.split('.')[0]}.json")
 
 if __name__ == "__main__":
     main()

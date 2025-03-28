@@ -1,11 +1,90 @@
 import requests
 import json
+import os
+import dotenv
 from datetime import datetime
 from langchain_openai import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
 from langchain.output_parsers import CommaSeparatedListOutputParser
 
-def fetch_hotel_details(hotel_id, api_key="00c4aad806msh8e00931585a4552p1cba4fjsn25893b3ff1c5"):
+# Load environment variables from .env file
+dotenv.load_dotenv()
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+RAPIDAPI_KEY = os.getenv("RAPIDAPI_KEY", "00c4aad806msh8e00931585a4552p1cba4fjsn25893b3ff1c5")
+
+def fetch_hotels(location="new york", page="1", api_key=None):
+    """
+    Fetch hotel data from TripAdvisor API.
+    
+    Args:
+        location (str): The location to search for hotels
+        page (str): The page number of results to fetch
+        api_key (str): Your RapidAPI key
+    
+    Returns:
+        dict: The JSON response from the API
+    """
+    if api_key is None:
+        api_key ="00c4aad806msh8e00931585a4552p1cba4fjsn25893b3ff1c5"
+        
+    url = "https://tripadvisor-scraper.p.rapidapi.com/hotels/list"
+    
+    querystring = {"query": location, "page": page}
+    
+    headers = {
+	"x-rapidapi-key": "00c4aad806msh8e00931585a4552p1cba4fjsn25893b3ff1c5",
+	"x-rapidapi-host": "tripadvisor-scraper.p.rapidapi.com"
+    }
+  
+    
+    try:
+        response = requests.get(url, headers=headers, params=querystring)
+        response.raise_for_status()  # Raise an exception for 4XX/5XX responses
+        return response.json()
+    except requests.exceptions.RequestException as e:
+        print(f"Error making the request: {e}")
+        return None
+
+def format_hotel_data(hotel_data):
+    """
+    Format hotel data into a readable list and store IDs separately.
+    
+    Args:
+        hotel_data (dict): The JSON response from the TripAdvisor API
+    
+    Returns:
+        tuple: (formatted_result, hotel_ids_dict)
+            - formatted_result: String with formatted hotel info (without IDs)
+            - hotel_ids_dict: Dictionary mapping hotel numbers to their IDs
+    """
+    if not hotel_data or 'results' not in hotel_data:
+        return "No hotel data available or invalid response format.", {}
+    
+    result = f"Found {hotel_data.get('total_items_count', 0)} hotels in total. Showing page {hotel_data.get('current_page', 1)} of {hotel_data.get('total_pages', 1)}.\n\n"
+    
+    # Dictionary to store hotel IDs (not displayed)
+    hotel_ids = {}
+    
+    for i, hotel in enumerate(hotel_data['results'], 1):
+        name = hotel.get('name', 'Unknown Hotel')
+        rating = hotel.get('rating', 'N/A')
+        
+        # Handle price range
+        price_range = hotel.get('price_range_usd', {})
+        min_price = price_range.get('min', 'N/A')
+        max_price = price_range.get('max', 'N/A')
+        price_str = f"Price: {min_price}-{max_price}" if min_price != 'N/A' and max_price != 'N/A' else "Price: N/A"
+        
+        # Store hotel ID in dictionary but don't display it in results
+        hotel_id = hotel.get('id', 'N/A')
+        hotel_ids[i] = hotel_id
+        
+        # Display hotel info without the ID
+        result += f"{i}. {name} - Rating: {rating} - {price_str}\n"
+    
+    return result, hotel_ids
+
+def fetch_hotel_details(hotel_id, api_key=None):
     """
     Fetch detailed information about a specific hotel using its TripAdvisor ID.
     
@@ -16,14 +95,18 @@ def fetch_hotel_details(hotel_id, api_key="00c4aad806msh8e00931585a4552p1cba4fjs
     Returns:
         dict: The JSON response containing hotel details
     """
+    if api_key is None:
+        api_key = "00c4aad806msh8e00931585a4552p1cba4fjsn25893b3ff1c5"
+        
     url = "https://tripadvisor-scraper.p.rapidapi.com/hotels/detail"
     
     querystring = {"id": str(hotel_id)}
     
     headers = {
-        "x-rapidapi-key": api_key,
-        "x-rapidapi-host": "tripadvisor-scraper.p.rapidapi.com"
+	"x-rapidapi-key": "00c4aad806msh8e00931585a4552p1cba4fjsn25893b3ff1c5",
+	"x-rapidapi-host": "tripadvisor-scraper.p.rapidapi.com"
     }
+        
     
     try:
         response = requests.get(url, headers=headers, params=querystring)
@@ -33,7 +116,7 @@ def fetch_hotel_details(hotel_id, api_key="00c4aad806msh8e00931585a4552p1cba4fjs
         print(f"Error making the request: {e}")
         return None
 
-def fetch_hotel_reviews(hotel_id, api_key="00c4aad806msh8e00931585a4552p1cba4fjsn25893b3ff1c5", limit=5):
+def fetch_hotel_reviews(hotel_id, api_key=None, limit=5):
     """
     Fetch reviews for a specific hotel using its TripAdvisor ID.
     
@@ -45,6 +128,9 @@ def fetch_hotel_reviews(hotel_id, api_key="00c4aad806msh8e00931585a4552p1cba4fjs
     Returns:
         list: A list of review texts
     """
+    if api_key is None:
+        api_key ="00c4aad806msh8e00931585a4552p1cba4fjsn25893b3ff1c5"
+        
     url = "https://tripadvisor-scraper.p.rapidapi.com/hotels/reviews"
     
     querystring = {"id": str(hotel_id), "limit": str(limit), "page": "1"}
@@ -159,19 +245,30 @@ def extract_key_info(hotel_data, generated_keywords=None):
     # Use generated keywords if available, otherwise use the ones from API
     keywords = generated_keywords if generated_keywords else hotel_data.get("review_keywords", [])
     
+    # Extract price range if available
+    price_range = "N/A"
+    if "price_range_usd" in hotel_data:
+        min_price = hotel_data["price_range_usd"].get("min", "N/A")
+        max_price = hotel_data["price_range_usd"].get("max", "N/A")
+        if min_price != "N/A" and max_price != "N/A":
+            price_range = f"${min_price}-${max_price}"
+    
     # Extract the required information
     key_info = {
         "hotel_id": hotel_data.get("id", "N/A"),
         "name": hotel_data.get("name", "N/A"),
+        "rating": hotel_data.get("rating", "N/A"),
         "address": hotel_data.get("address", "N/A"),
+        "phone": hotel_data.get("phone", "N/A"),
+        "price_range": price_range,
         "website": hotel_data.get("website", "N/A"),
         "email": hotel_data.get("email", "N/A"),
-        "phone": hotel_data.get("phone", "N/A"),
+        "featured_image": hotel_data.get("featured_image", None),
+        "link": hotel_data.get("link", "N/A"),
         "coordinates": {
             "latitude": hotel_data.get("latitude", "N/A"),
             "longitude": hotel_data.get("longitude", "N/A")
         },
-        "rating": hotel_data.get("rating", "N/A"),
         "ranking": hotel_data.get("ranking", {}).get("current_rank", "N/A"),
         "total_hotels": hotel_data.get("ranking", {}).get("total", "N/A"),
         "keywords": keywords
@@ -194,24 +291,18 @@ def generate_hotel_summary(key_info):
         return key_info["error"]
     
     # Create a summary based on available information
-    summary = f"Hotel Summary: {key_info['name']}\n"
-    summary += "=" * (15 + len(key_info['name'])) + "\n\n"
-    
-    # Basic information
-    summary += f"Contact Information:\n"
-    summary += f"- Address: {key_info['address']}\n"
-    summary += f"- Phone: {key_info['phone']}\n"
-    summary += f"- Email: {key_info['email']}\n"
-    summary += f"- Website: {key_info['website']}\n\n"
+    summary = ""
     
     # Location information
-    summary += f"Location:\n"
-    summary += f"- Coordinates: {key_info['coordinates']['latitude']}, {key_info['coordinates']['longitude']}\n"
-    summary += f"- Ranking: #{key_info['ranking']} of {key_info['total_hotels']} hotels in the area\n\n"
+    if key_info['coordinates']['latitude'] != "N/A" and key_info['coordinates']['longitude'] != "N/A":
+        summary += f"Location coordinates: {key_info['coordinates']['latitude']}, {key_info['coordinates']['longitude']}\n"
+    
+    if key_info['ranking'] != "N/A" and key_info['total_hotels'] != "N/A":
+        summary += f"Ranking: #{key_info['ranking']} of {key_info['total_hotels']} hotels in the area\n\n"
     
     # Keywords for contextual information
     if key_info['keywords']:
-        summary += "Key Features (AI-generated keywords):\n"
+        summary += "Key Features:\n"
         # Group keywords into categories for better summary
         location_keywords = []
         amenities_keywords = []
@@ -237,94 +328,136 @@ def generate_hotel_summary(key_info):
         if experience_keywords:
             summary += "- Guest experience notes: " + ", ".join(experience_keywords[:5]) + "\n"
     
-    summary += f"\nRating: {key_info['rating']} (Based on TripAdvisor reviews)\n"
-    summary += f"\nGenerated on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
-    
     return summary
 
-def save_hotel_info(key_info, summary, save_raw=True):
+def format_hotel_details(key_info, summary):
     """
-    Save hotel information to files.
+    Format hotel details in the requested format.
     
     Args:
-        key_info (dict): Extracted key information
+        key_info (dict): Extracted key information about the hotel
         summary (str): Generated summary
-        save_raw (bool): Whether to save the raw key info
     
     Returns:
-        tuple: Paths to the saved files
+        str: Formatted hotel details
     """
-    # Create filenames based on hotel ID
-    hotel_id = key_info.get("hotel_id", "unknown")
-    summary_filename = f"hotel_{hotel_id}_summary.txt"
-    json_filename = f"hotel_{hotel_id}_info.json"
+    details = "\n" + "=" * 60 + "\n"
+    details += f"HOTEL INFORMATION\n"
+    details += "=" * 60 + "\n\n"
     
-    # Save summary to text file
-    with open(summary_filename, 'w') as f:
-        f.write(summary)
+    # Format exactly as requested
+    details += f"Name: {key_info['name']}\n"
+    details += f"Rating: {key_info['rating']} stars\n"
+    details += f"Address: {key_info['address']}\n"
+    details += f"Phone: {key_info['phone']}\n"
+    details += f"Price Range: {key_info['price_range']}\n"
+    details += f"Email: {key_info['email']}\n"
+    details += f"Website: {key_info['website']}\n\n"
     
-    # Save key info to JSON file if requested
-    if save_raw:
-        with open(json_filename, 'w') as f:
-            json.dump(key_info, f, indent=2)
-        return summary_filename, json_filename
+    details += "Summary:\n"
+    details += "-" * 60 + "\n"
+    details += summary
     
-    return summary_filename, None
+    # Add image URL if available
+    if key_info['featured_image']:
+        details += "\n\nImage URL:"
+        details += f"\n{key_info['featured_image']}\n"
+    
+    details += "\n" + "=" * 60 + "\n"
+    details += f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n"
+    details += "=" * 60 + "\n"
+    
+    return details
+
+def save_hotel_details(details, hotel_id):
+    """
+    Save hotel details to a file.
+    
+    Args:
+        details (str): Formatted hotel details
+        hotel_id (str): The ID of the hotel
+    
+    Returns:
+        str: Path to the saved file
+    """
+    filename = f"hotel_{hotel_id}_details.txt"
+    with open(filename, 'w') as f:
+        f.write(details)
+    return filename
 
 def main():
     """
-    Main function to run the hotel detail fetcher with LangChain and GPT-4 mini integration.
+    Main function to fetch hotel data and retrieve detailed information.
     """
-    print("TripAdvisor Hotel Detail Fetcher with LangChain and GPT-4 Mini")
-    print("=" * 60)
+    print("\nTripAdvisor Hotel Information Retriever")
+    print("=" * 40)
     
-    hotel_id = input("Enter hotel ID to fetch details: ")
-    
-    # Ask for OpenAI API key
-    openai_api_key = input("Enter your OpenAI API key: ")
+    # Get OpenAI API key from .env or environment
+    openai_api_key = OPENAI_API_KEY
     if not openai_api_key:
-        print("Warning: No OpenAI API key provided. Will use existing keywords if available.")
+        print("Note: OpenAI API key not found in .env file. Will use existing keywords from TripAdvisor.")
     
-    print(f"\nFetching details for hotel ID {hotel_id}...\n")
+    # 1. Fetch list of hotels
+    location = input("Enter location to search for hotels (default: new york): ") or "new york"
+    print(f"\nFetching hotels in {location}...")
     
-    # Fetch hotel details
-    hotel_data = fetch_hotel_details(hotel_id)
+    # Use fetch_hotels from hotel_city.py
+    hotel_data = fetch_hotels(location)
     
     if not hotel_data:
-        print("Failed to fetch hotel data. Please check the hotel ID and try again.")
+        print("Failed to fetch hotels. Please check your internet connection and try again.")
         return
     
-    # Generate keywords with GPT-4 mini if API key is provided
+    # 2. Format and display hotels
+    formatted_data, hotel_ids = format_hotel_data(hotel_data)
+    print(formatted_data)
+    
+    # 3. Let user select a hotel
+    try:
+        selection = int(input("\nEnter the number of the hotel you want details for: "))
+        if selection not in hotel_ids:
+            print("Invalid selection. Please select a valid hotel number.")
+            return
+    except ValueError:
+        print("Invalid input. Please enter a number.")
+        return
+    
+    selected_id = hotel_ids[selection]
+    print(f"\nFetching details for hotel ID: {selected_id}...")
+    
+    # 4. Fetch detailed hotel information
+    hotel_details_data = fetch_hotel_details(selected_id)
+    
+    if not hotel_details_data:
+        print("Failed to fetch hotel details. Please try again.")
+        return
+    
+    # 5. Process hotel details with or without OpenAI
     generated_keywords = None
     if openai_api_key:
-        print("Fetching reviews to generate keywords...")
-        reviews = fetch_hotel_reviews(hotel_id)
-        
+        print("Generating keywords with OpenAI...")
+        reviews = fetch_hotel_reviews(selected_id)
         if reviews:
-            print(f"Generating keywords using LangChain and GPT-4 mini based on {len(reviews)} reviews...")
-            generated_keywords = generate_keywords_with_gpt4mini(hotel_data, reviews, openai_api_key)
-            print(f"Generated {len(generated_keywords)} keywords.")
-        else:
-            print("No reviews found. Will use existing keywords if available.")
+            generated_keywords = generate_keywords_with_gpt4mini(hotel_details_data, reviews, openai_api_key)
+            print(f"Generated {len(generated_keywords)} keywords")
     
-    # Extract key information
-    key_info = extract_key_info(hotel_data, generated_keywords)
+    # 6. Extract key information
+    key_info = extract_key_info(hotel_details_data, generated_keywords)
     
-    # Generate and display summary
+    # 7. Generate summary automatically (without asking)
     summary = generate_hotel_summary(key_info)
-    print("\nHotel Summary:")
-    print("-" * 15)
-    print(summary)
     
-    # Ask if user wants to save the information
-    save_option = input("\nWould you like to save this information? (y/n): ").lower()
+    # 8. Format hotel details in the requested format
+    formatted_details = format_hotel_details(key_info, summary)
+    
+    # 9. Display the formatted details
+    print(formatted_details)
+    
+    # 10. Save to file
+    save_option = input("\nWould you like to save these details to a file? (y/n): ").lower()
     if save_option == 'y':
-        save_raw = input("Save raw data as JSON as well? (y/n): ").lower() == 'y'
-        summary_file, json_file = save_hotel_info(key_info, summary, save_raw)
-        
-        print(f"\nSummary saved to {summary_file}")
-        if json_file:
-            print(f"Raw data saved to {json_file}")
+        filename = save_hotel_details(formatted_details, selected_id)
+        print(f"Details saved to {filename}")
 
 if __name__ == "__main__":
     main()

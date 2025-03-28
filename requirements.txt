@@ -34,3 +34,6 @@ isort
 mypy
 folium
 IPython
+langchain-openai
+langchain
+langchain_community
