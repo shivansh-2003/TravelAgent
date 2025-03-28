@@ -37,3 +37,7 @@ IPython
 langchain-openai
 langchain
 langchain_community
+
+
+streamlit 
+streamlit_folium
